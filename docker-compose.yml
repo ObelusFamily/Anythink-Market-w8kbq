@@ -36,7 +36,7 @@ services:
       - ./:/usr/src/
       - /usr/src/frontend/node_modules
     ports:
-      - "3001:3001"
+      - "3000:3000"
   postgres-python:
     container_name: postgres-python
     restart: on-failure
